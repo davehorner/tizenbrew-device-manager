@@ -34,3 +34,44 @@
         </picture>
     </a>
 </p>
+
+## Installation
+
+To install and use the TizenBrew Device Manager, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [Rust](https://www.rust-lang.org/) (latest stable version)
+- [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites) for your operating system
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/reisxd/tizenbrew-device-manager.git
+   cd tizenbrew-device-manager
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+
+4. Run the application:
+   ```bash
+   npm run tauri dev
+   ```
+
+5. To create a production build:
+   ```bash
+   npm run tauri build
+   ```
+
+---
